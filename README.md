@@ -1,1 +1,1 @@
-# goit-markup-hw-02
+Praca Domowa 2 - Michał Kubit
