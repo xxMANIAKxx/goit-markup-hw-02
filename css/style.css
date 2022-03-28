@@ -1,0 +1,142 @@
+:root{
+    --main-font: font-family: 'Roboto', sans-serif;
+    --secondary-font: font-family: 'Raleway', sans-serif;
+    --highlight-color: #2196F3;
+    --main-color: #212121;
+    --secondary-color: #757575;
+      
+}
+
+body{
+font-family: var(--main-font);
+}
+
+/* == logo == */
+.logo-color{
+color: var(--highlight-color);
+}
+
+.logo-dark{
+color: #000;
+}
+
+.logo-light{
+color: #fff;
+}
+
+.logo-link{
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+}
+
+/* == header == */
+.navmenu-list-link,
+.header-email,
+.header-phone{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.43;
+letter-spacing: 0.02em;
+}
+
+.navmenu-list-link{
+ color: var(--main-color);
+}
+
+.header-email,
+.header-phone{
+color: var(--secondary-color);
+}
+
+.navmenu-list-link:hover,
+.navmenu-list-link:focus,
+.header-email:hover,
+.header-email:focus,
+.header-phone:hover,
+.header-phone:focus
+.logo-link:hover,
+.logo-link:focus{
+color: var(--highlight-color);
+}  
+/* == end header == */
+
+/* == buttons == */
+.button-filtr:hover,
+.button-filtr:focus,
+.button-order:hover,
+.button-order:focus{
+background-color: var(--highlight-color);
+color: #fff;
+cursor: pointer;
+}
+/* == end buttons == */
+
+/* == main == */
+
+.h1-txt{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.364;
+text-align: center;
+letter-spacing: 0.06em;
+/* color: #FFFFFF; */
+}
+
+.h2-txt,
+.h5-txt{
+color: var(--main-color);
+font-weight: 700;
+}
+
+.h2-txt{
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.h5-txt{
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.03em;
+}
+
+.adventages-discription{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: var(--secondary-color)
+}
+
+.team-member{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.187;
+letter-spacing: 0.03em;
+color: var(--main-color)
+}
+
+.team-member-discription{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.187;
+letter-spacing: 0.03em;
+color: var(--secondary-color)
+}
+
+
+
+
+/* == end main == */
+
+.adres{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+}
